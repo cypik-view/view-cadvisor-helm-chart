@@ -1,0 +1,16 @@
+apiVersion: v1
+kind: Package
+metadata:
+  name: view-cadvisor
+  version: 0.1.0
+  description: A Helm chart for deploying view-cadvisor on Kubernetes.
+  keywords:
+    - view-cadvisor
+    - helm
+  maintainers:
+    - name: Sohan
+      email: sohanyadavdevops@gmail.com
+  sources:
+    - name: GitHub
+      url: https://github.com/cypik-view/view-cadvisor-helm-chart
+  home: https://github.com/cypik-view/view-cadvisor-helm-chart
