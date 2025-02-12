@@ -3,12 +3,12 @@ entries:
   view-cadvisor:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2025-02-12T10:30:25.983721342+05:30"
+    created: "2025-02-12T14:57:22.563246476+05:30"
     description: A Helm chart for Kubernetes
-    digest: 5ab70ec631216f3ccf15439bfcc8198e2fefff44ed19b9e1aabd0f9e33aeb471
+    digest: 37456a8e47508473aa035751ee398d6dac33b3cb50da6c12ff4f7bb372902b8d
     name: view-cadvisor
     type: application
     urls:
     - view-cadvisor-0.1.0.tgz
     version: 0.1.0
-generated: "2025-02-12T10:30:25.98279283+05:30"
+generated: "2025-02-12T14:57:22.562639274+05:30"

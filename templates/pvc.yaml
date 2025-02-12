@@ -1,11 +1,13 @@
 apiVersion: v1
 kind: PersistentVolumeClaim
 metadata:
-  name: cadvisor-pvc
+  name: {{ .Release.Name }}-pvc
+  labels:
+    app: {{ .Chart.Name }}
 spec:
   accessModes:
-    - ReadOnlyMany
+    - {{ .Values.persistence.accessMode }}
   resources:
     requests:
-      storage: 1Gi
-  storageClassName: "standard"
+      storage: {{ .Values.persistence.size }}
+  storageClassName: {{ .Values.persistence.storageClassName }}
